@@ -68,10 +68,12 @@ bool Arr<T>::ArrIterator::MoveNext()
 {
 	index++;
 
-	if (index <arr>->cnt)
+	if (index < arr->cnt)
 	{
 		return true;
 	}
+
+	return false;
 
 }
 
