@@ -32,8 +32,8 @@ public:
 	virtual void Remove(T t);
 	virtual void Clear() { cnt = 0; }
 	virtual int Count() const { return cnt; }
-	Iterator<T> *MakeIterator();
-	void RemoveIterator(Iterator<T> *iter);
+	virtual Iterator<T> *MakeIterator();
+	virtual void RemoveIterator(Iterator<T> *iter);
 
 private:
 	bool IsFull() const;

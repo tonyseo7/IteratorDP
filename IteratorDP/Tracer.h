@@ -7,7 +7,7 @@ public:
 
 	void DoIt()
 	{
-		Arr<int> *arr = new Arr<int>(10);
+		Collection<int> *arr = new Arr<int>(10);
 		
 		arr->Add(3);
 		arr->Add(6);
